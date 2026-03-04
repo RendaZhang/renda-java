@@ -59,6 +59,7 @@ public final class ProblemRegistry {
         register(new LC27_RemoveElement());
         register(new LC28_FindIndexOfFirstOccurrenceinString());
         register(new LC29_DivideTwoIntegers());
+        register(new LC30_SubstringWithConcatenationOfAllWords());
     }
 
     private ProblemRegistry() {
