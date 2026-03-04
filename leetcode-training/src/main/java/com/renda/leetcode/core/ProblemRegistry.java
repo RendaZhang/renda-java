@@ -60,6 +60,7 @@ public final class ProblemRegistry {
         register(new LC28_FindIndexOfFirstOccurrenceinString());
         register(new LC29_DivideTwoIntegers());
         register(new LC30_SubstringWithConcatenationOfAllWords());
+        register(new LC31_NextPermutation());
     }
 
     private ProblemRegistry() {
