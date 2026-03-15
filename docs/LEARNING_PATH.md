@@ -4,10 +4,10 @@
 
 | 知识领域 | 必学 (Basics) | 进阶 (Advanced) | 源码 (Source) | 面试 (Interview) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Java 核心** | [集合框架入门](2025云原生/stage1/) | [并发编程 JUC](2025云原生/stage1/) | [HashMap 源码](2025云原生/stage1/) | [Java 核心 100 问](2025云原生/QBank_JAVA.md) |
-| **算法实战** | [位运算基础](2025云原生/stage1/Algorithm/BitManipulationCheetSheet.md) | [动态规划](../algorithm/src/main/java/com/renda/algorithm/leetcode/LC322_CoinChange.java) | [算法解题模板](../algorithm/README.md) | [LeetCode 重点 200](2025云原生/stage1/Algorithm/) |
+| **Java 核心** | [集合框架入门](2025云原生/stage1/) | [并发编程 JUC](2025云原生/stage1/) | [HashMap 源码](2025云原生/stage1/) | [Java 核心 100 问](interview/QBank_JAVA.md) |
+| **算法实战** | [位运算基础](interview/algorithm/BitManipulationCheetSheet.md) | [动态规划](../algorithm/src/main/java/com/renda/algorithm/leetcode/LC322_CoinChange.java) | [算法解题模板](../algorithm/README.md) | [LeetCode 重点 200](2025云原生/stage1/) |
 | **分布式架构** | [方法论总览](interview/分布式架构落地方法论：三种常见范式、一致性设计与高频场景实践.md) | [分布式一致性](interview/分布式架构落地方法论：三种常见范式、一致性设计与高频场景实践.md) | [Seata 源码示例](../backend-interview/README.md) | [架构设计 Checklist](interview/分布式架构落地方法论：三种常见范式、一致性设计与高频场景实践.md) |
-| **云原生** | [AWS 入门](2025云原生/stage2/Bootcamp/) | [K8s 核心概念](2025云原生/stage2/) | [Kubernetes Client](../backend-interview/README.md) | [云原生实战 QA](2025云原生/stage2/) |
+| **云原生** | [AWS 入门](2025云原生/stage2/Bootcamp/) | [K8s 核心概念](2025云原生/stage2/) | [OpenTelemetry 深度解析](interview/OpenTelemetry_Basics.md) | [云原生实战 QA](2025云原生/stage2/) |
 
 ---
 

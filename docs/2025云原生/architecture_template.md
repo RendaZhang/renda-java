@@ -60,18 +60,18 @@
 
 ```mermaid
 flowchart LR
-  client[Client / Web / Mobile]
-  gw[API Gateway / Ingress]
-  bff[BFF / Edge Service (optional)]
-  svc1[Service A<br/>Java + Spring Boot]
-  svc2[Service B<br/>Java + Spring Boot]
-  mq[Messaging\n(SQS/Kafka/RabbitMQ)]
-  cache[(Redis Cluster)]
-  db[(Aurora/MySQL or PostgreSQL)]
-  s3[(Object Storage / S3)]
-  search[(Search / OpenSearch-ES)]
-  obs[Observability\n(OTel → Metrics/Logs/Traces)]
-  ci[CI/CD\n(GitHub Actions → Cloud)]
+  client["Client / Web / Mobile"]
+  gw["API Gateway / Ingress"]
+  bff["BFF / Edge Service (optional)"]
+  svc1["Service A<br/>Java + Spring Boot"]
+  svc2["Service B<br/>Java + Spring Boot"]
+  mq["Messaging<br/>(SQS/Kafka/RabbitMQ)"]
+  cache[("Redis Cluster")]
+  db[("Aurora/MySQL or PostgreSQL")]
+  s3[("Object Storage / S3")]
+  search[("Search / OpenSearch-ES")]
+  obs["Observability<br/>(OTel → Metrics/Logs/Traces)"]
+  ci["CI/CD<br/>(GitHub Actions → Cloud)"]
 
   client --> gw --> bff --> svc1
   bff --> svc2
@@ -83,9 +83,9 @@ flowchart LR
   svc2 --> s3
   svc1 -.-> search
   svc2 -.-> search
-  gw -. metrics/logs/traces .-> obs
-  svc1 -. metrics/logs/traces .-> obs
-  svc2 -. metrics/logs/traces .-> obs
+  gw -.->|metrics/logs/traces| obs
+  svc1 -.->|metrics/logs/traces| obs
+  svc2 -.->|metrics/logs/traces| obs
   ci --> gw
   ci --> svc1
   ci --> svc2

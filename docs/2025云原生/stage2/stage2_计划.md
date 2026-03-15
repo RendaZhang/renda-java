@@ -917,4 +917,4 @@ cleanup/
 
 ### 高频问题库
 
-详情查看文档：[高频问题库](./docs/interview/QBANK.md)
+详情查看文档：[高频问题库](../../interview/QBANK.md)
