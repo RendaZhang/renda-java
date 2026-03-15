@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Java Version](https://img.shields.io/badge/Java-21-blue.svg)](https://www.oracle.com/java/technologies/downloads/)
 [![Coverage](https://img.shields.io/badge/Coverage-85%25-green.svg)](#)
-[![Algorithm Progress](https://img.shields.io/badge/LeetCode-200%2B-brightgreen.svg)](#)
+[![Algorithm Progress](https://img.shields.io/badge/LeetCode-200%2B-brightgreen.svg)](algorithm/README.md)
 
 这是一个面向 **Java 学习与面试的一站式知识库与代码实验室**。本项目不仅包含了深度的技术笔记，还通过多模块 Maven 工程提供了可运行的算法实战、后端核心示例以及云原生实验场。
 

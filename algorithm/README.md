@@ -9,8 +9,22 @@
 - JMH (Performance Benchmarking)
 
 ## 快速启动 (Quick Start)
+### 1. 运行单元测试 (Unit Tests)
 ```bash
 mvn clean test -pl algorithm
+```
+
+### 2. 运行性能基准测试 (JMH Benchmarks)
+```bash
+# 构建整个项目以生成基准测试代码
+mvn clean install -DskipTests
+# 运行 JMH 基准测试 (通过 exec-maven-plugin 或直接运行编译后的 JAR)
+mvn exec:java -pl algorithm -Dexec.mainClass="org.openjdk.jmh.Main"
+```
+
+### 3. 运行算法实验室主程序
+```bash
+mvn exec:java -pl algorithm -Dexec.mainClass="com.renda.algorithm.Main"
 ```
 
 ## 扩展指南 (Extension Guide)

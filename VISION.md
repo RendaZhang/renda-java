@@ -9,13 +9,13 @@
   - 算法实验室核心框架 (Strategy + Factory)
   - 文档体系重构
 - **Phase 2: 深度扩展 (In Progress)**
-  - 集成 Testcontainers 进行真实的数据库与中间件测试
-  - 引入 JMH 性能基准测试
-  - 完善 Spring Boot 3.x 源码级示例
+  - 集成 **Testcontainers** 进行真实的 MySQL/Redis/Kafka 容器化测试
+  - 引入 **JMH (Java Microbenchmark Harness)** 进行算法性能分析
+  - 完善 Spring Boot 3.x 源码级示例，集成 **Micrometer** 与 **OpenTelemetry (OTel)** 观测能力
 - **Phase 3: 云原生与生态 (Planned)**
-  - 接入 Nacos/Consul 配置中心
-  - 实现基于 Kubernetes Client 的自动化运维示例
-  - 提供标准的微服务脚手架
+  - 接入 **Nacos/Consul** 配置中心，演示分布式动态配置
+  - 实现基于 **Kubernetes Java Client** 的自动化运维与 Sidecar 控制示例
+  - 提供标准的微服务脚手架（基于 Spring Cloud Alibaba 或 AWS SDK）
 
 ## 社区贡献规范 (Contribution Guidelines)
 1. 采用 Fork & PR 模式。
