@@ -1,0 +1,13 @@
+---
+spring:
+  application:
+    name: renda-java-backend
+  profiles:
+    active: dev
+    group:
+      dev: "database,common"
+      prod: "cloud,common"
+
+# Centralized config placeholders
+config:
+  repo: ${CONFIG_REPO_PATH:./config-repo}
