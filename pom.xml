@@ -9,7 +9,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>Renda Java Knowledge Base & Code Lab</name>
+    <name>Renda Java Knowledge Base &amp; Code Lab</name>
     <description>一站式 Java 学习与面试知识库与代码实验室</description>
 
     <properties>
