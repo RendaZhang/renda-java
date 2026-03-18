@@ -12,7 +12,9 @@ public interface AlgorithmProblem {
     /**
      * 获取题目来源 (LeetCode, Luogu, SwordOffer)
      */
-    ProblemSource getSource();
+    default ProblemSource getSource() {
+        return com.renda.algorithm.core.ProblemSource.LEETCODE;
+    }
 
     /**
      * 执行题目示例/测试逻辑
