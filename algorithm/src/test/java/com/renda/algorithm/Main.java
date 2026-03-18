@@ -1,3 +1,5 @@
+package com.renda.algorithm;
+
 import java.util.Arrays;
 
 public class Main {

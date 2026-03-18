@@ -27,7 +27,19 @@ mvn exec:java -pl algorithm -Dexec.mainClass="org.openjdk.jmh.Main"
 mvn exec:java -pl algorithm -Dexec.mainClass="com.renda.algorithm.Main"
 ```
 
+主程序启动后会提供交互式菜单，选择题目后执行。
+
+也可以通过参数直接运行：
+
+```bash
+# 运行全部
+mvn exec:java -pl algorithm -Dexec.mainClass="com.renda.algorithm.Main" -Dexec.args="all"
+
+# 运行单题（可用 ProblemId 或 Source:ProblemId）
+mvn exec:java -pl algorithm -Dexec.mainClass="com.renda.algorithm.Main" -Dexec.args="LC1"
+```
+
 ## 扩展指南 (Extension Guide)
 1. 在 `com.renda.algorithm.[source]` 下创建新题目。
 2. 实现 `AlgorithmProblem` 接口。
-3. 在 `ProblemRegistry` 中注册新题目。
+3. 提供无参构造方法，并放在 `com.renda.algorithm.leetcode` / `com.renda.algorithm.luogu` / `com.renda.algorithm.swordoffer` 包及其子包下，启动时会自动扫描并注册。

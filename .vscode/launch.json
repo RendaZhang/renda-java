@@ -3,11 +3,10 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Run LeetCode Problem",
+      "name": "Main",
       "request": "launch",
-      "mainClass": "com.renda.leetcode.Main",
-      "args": "${input:problemNumber}",
-      "projectName": "leetcode-training"
+      "mainClass": "com.renda.algorithm.Main",
+      "projectName": "algorithm"
     }
   ],
   "inputs": [
